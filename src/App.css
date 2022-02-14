@@ -37,9 +37,9 @@ h1{
   background: transparent;
   font-size: 20px;
   font-weight: 500;
-  width: 60%;
   border-bottom: 3px dashed white;
   outline: none;
+  margin-right: 20px;
 }
 .button{
   min-height: 20px;
@@ -64,6 +64,9 @@ h1{
 ol{
   margin-top: 100px;
 }
+ol li {
+  margin-left: 20px;
+}
 /* ol li{
   font-size: 20px;
   font-weight: 500;
@@ -84,7 +87,10 @@ ol{
   text-align: left;
   grid-template-columns: 70% 30%;
 }
-
+.links{
+  display: flex;
+  flex-direction: row;
+}
 .todo_style .fa {
   width: 30px;
   height: 30px;
@@ -124,5 +130,9 @@ ol{
     width: 40px;
     color: #fff;
     font-size: 30px;
+  }
+  ol{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
   }
 }
